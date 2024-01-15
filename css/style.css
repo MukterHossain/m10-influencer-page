@@ -141,7 +141,7 @@ body{
     width: 80%;
     margin: 100px auto;
     display: grid;
-    grid-template-rows:repeat(4, 1rf);
+    grid-template-columns:repeat(7, 1fr);
     gap: 20px;
 }
 
@@ -358,9 +358,11 @@ body{
 
 
     .influ-logo{
-
-        grid-template-columns: repeat(2, 2rf)130px 130px 130px 130px 130px 130px 130px ;
+        grid-template-columns:repeat(4, 2fr);
+        display: grid;
+        justify-items: center;
     }
+
 
 
     .influ-popular-gallery{
@@ -393,6 +395,9 @@ body{
     .influ-feature-title p{
         padding: 15px;
     }
+
+
+
 
 
 
@@ -441,7 +446,10 @@ body{
 
 
     .influ-logo{
-        flex-wrap: wrap; 
+        grid-template-columns:repeat(4, 2fr);
+        display: grid;
+        justify-items: center;
+        
     }
 
 
